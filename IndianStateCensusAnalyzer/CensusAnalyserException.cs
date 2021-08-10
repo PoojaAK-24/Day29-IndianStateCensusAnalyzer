@@ -12,7 +12,7 @@ namespace IndianStateCensusAnalyzer
             INVALID_FILE_TYPE,
             INCORRECT_DELIMITER,
             INCORRECT_HEADER,
-            NO_SUCH_COUNTRY
+            NO_SUCH_COUNTRY 
         }
 
         public ExceptionType eType;
