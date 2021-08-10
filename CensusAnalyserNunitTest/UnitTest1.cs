@@ -135,7 +135,7 @@ namespace CensusAnalyserNunitTest
 
         #endregion TC-5
 
-        #endregion UC 1,2
+        #endregion UC 1-2
 
     }
 
