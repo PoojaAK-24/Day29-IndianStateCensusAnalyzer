@@ -30,7 +30,7 @@ namespace IndianStateCensusAnalyzer.DTO
             this.stateCode = stateCodeDao.stateCode;
         }
 
-        public CensusDTO(CensusDataDAO censusDataDao)
+        public CensusDTO(CensusDataDAO censusDataDao) 
         {
             this.state = censusDataDao.state;
             this.population = censusDataDao.population;
