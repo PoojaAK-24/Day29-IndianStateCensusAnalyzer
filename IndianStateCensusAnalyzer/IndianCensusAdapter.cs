@@ -14,7 +14,7 @@ namespace IndianStateCensusAnalyzer
         {
             dataMap = new Dictionary<string, CensusDTO>();
             censusData = GetCensusData(csvFilePath, dataHeaders);
-            foreach (string data in censusData.Skip(1))
+            foreach (string data in censusData.Skip(1)) 
             {
                 if (!data.Contains(","))
                 {
