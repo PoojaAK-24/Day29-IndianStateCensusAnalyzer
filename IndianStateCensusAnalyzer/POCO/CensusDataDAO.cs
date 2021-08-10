@@ -9,7 +9,7 @@ namespace IndianStateCensusAnalyzer.POCO
         public string state;
         public long population;
         public long area;
-        public long density;
+        public long density; 
 
         public CensusDataDAO(string state, string population, string area, string density)
         {

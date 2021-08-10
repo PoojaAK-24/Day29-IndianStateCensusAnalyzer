@@ -9,7 +9,7 @@ namespace IndianStateCensusAnalyzer.POCO
         public int serialNumber;
         public string stateName;
         public int tin;
-        public string stateCode;
+        public string stateCode; 
 
         public StateCodeDAO(string v1, string v2, string v3, string v4)
         {
